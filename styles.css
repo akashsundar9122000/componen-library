@@ -31,7 +31,7 @@ hr{
 .link{
 
     text-decoration: none;
-    padding: 0.5rem  1rem;
+    padding: 0.5rem  0.5rem;
 }
 
 .primary{
@@ -59,4 +59,28 @@ hr{
 .list-inline-item{
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+.navigation{
+    background: var(--primary-color);
+    color: var(--primary-color)black;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+}
+
+.navigation .link-active{
+
+    font-weight: bold;
+}
+
+.navigation .link{
+    color: black;
 }
