@@ -1,0 +1,23 @@
+body{
+    color: blue;
+}
+
+h1{
+    color: red;
+}
+
+#heading-of-project{
+    color: gray;
+}
+
+h2{
+    color: green;
+}
+
+#typo{
+    color: greenyellow;
+}
+
+.para{
+    color: hotpink;
+}
