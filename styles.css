@@ -3,6 +3,7 @@
 :root{
 
     --primary-color : rgb(99, 204, 236);
+    --grey-color :#6B7280;
 }
 
 body{
@@ -84,3 +85,29 @@ hr{
 .navigation .link{
     color: black;
 }
+
+/** Header **/
+
+.hero{
+
+    padding: 2rem;
+}
+
+.hero .hero-img{
+
+    display: block;
+
+    max-width: 350px;
+    margin: auto;
+}
+
+.hero .hero-heading{
+
+    color: var(--grey-color);
+
+}
+
+ .hero .hero-heading .small-heading{ 
+
+    color: var(--primary-color);
+} 
