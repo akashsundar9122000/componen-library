@@ -4,6 +4,7 @@
 
     --primary-color : rgb(99, 204, 236);
     --grey-color :#6B7280;
+    --half-white-color :#E5E7EB;
 }
 
 body{
@@ -111,3 +112,19 @@ hr{
 
     color: var(--primary-color);
 } 
+
+/** sections **/
+
+.section{
+    padding:2rem;
+
+}
+
+.section  h1{
+
+    text-align: center;
+}
+
+.greysection{
+    background-color: var(--half-white-color);
+}
