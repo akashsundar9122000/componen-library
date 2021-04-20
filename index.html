@@ -1,153 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>Home</title>
     <link href="styles.css" rel="stylesheet" />
 </head>
-
 <body>
 
-    <h1>Welcome To Akash's Component Library</h1>
-
-    <p>This is a library which we can use it later for all our projects.</p>
-
-    <hr />
-
-    <h2>@typography</h2>
-
-    <h1>This is the biggest heading</h1>
-
-    <h2>This is the 2nd biggest</h2>
-
-    <p>This is the tag used for normal paragraphs which will <strong> wrap </strong> the texts to the new like at the
-        end of the line.And its very useful.</p>
-
-    <small>This is the <strong> smallest </strong> test.</small>
-
-    <hr />
-
-    <h2>@Container</h2>
-
-    <h3>Fluid Container</h3>
-
-    <div class="container">This container takes the sentence from end to end.</div>
-
-    <h3>Centerd Container</h3>
-
-    <diV class="container center-container">This container will take the sentence from specific position to specific
-        position.</diV>
-
-    <hr />
-
-    <h2>@Links</h2>
-
-    <a class="link primary" href="https://google.com">primary link</a>
-    <a class="link secondary" href="https://facebook.com">secondary link</a>
-
-    <hr />
-
-    <h2>@List</h2>
-
-    <h3>Unordered List</h3>
-
-    <ul class="non-bullet">
-        <li>Name</li>
-        <li>age</li>
-        <li>subject</li>
-    </ul>
-
-    <h3>Unordered Inline List</h3>
-
-    <ul class="non-bullet">
-        <li class="list-inline-item">Inline Name</li>
-        <li class="list-inline-item">Inline age</li>
-        <li class="list-inline-item">Inline subject</li>
-    </ul>
-
-    <h3>Reversed Ordered List</h3>
-
-    <ol reversed>
-        <li>Milk</li>
-        <li>Eggs</li>
-        <li>Bread</li>
-    </ol>
-
-    <hr>
-
-    <h2>@Nav</h2>
-
     <nav class="navigation container">
-        <div class="nav-brand">I am Developer</div>
+        <div class="nav-brand">IAMDEVELOPER</div>
         <ul class="non-bullet nav-pills">
             <li class="list-inline-item">
                 <a class="link link-active" href="/">Home</a>
             <li class="list-inline-item">
 
-                <a class="link" href="/">Projects</a>
+                <a class="link" href="projects.html">Projects</a>
             <li class="list-inline-item">
 
-                <a class="link" href="/">about</a>
+                <a class="link" href="blogs.html">Blogs</a>
             </li>
         </ul>
     </nav>
 
-    <hr>
-
-    <h2>@Header</h2>
-
     <header class="hero">
 
-        <img class="hero-img" src="Images/profile.svg" />
+        <img class="hero-img" src="/Images/profile.svg" />
         <h1 class="hero-heading">Akash Sundar the<span class="small-heading"> Web Developer</span></h1>
     </header>
 
-    <hr>
+    <section class="section greysection">
+        <div class="container center-container">
+            <h1>Technologies</h1>
+            <p>I am learning HTML5, CSS, JavaScript, Nodejs, Web Hosting and ReachJS currently. I am familiar with some basics of Android Development and I have knowledge on programming languages like Python, C Programming, Java Programming, C++ Programming.
+            </p>
+        </div>
 
-    <h2>@Section</h2>
+    </section>
 
     <section class="section">
         <div class="container center-container">
-            <h1>White Section</h1>
-            <p>To be a part of your highly progressive company and work
-                with fullest of my knowledge, dedication and determination.
-                I love to learn new technologies and work with it and I wish
-                to do the same as a valuable employee of the company.
+            <h1>Projects</h1>
+            <p>I like to showcase some of projects and thus you can see it by clicking the link below.
             </p>
+
+            <a class="link primary" href="https://google.com">View Projects</a>
         </div>
 
     </section>
 
     <section class="section greysection">
         <div class="container center-container">
-            <h1>Grey Section</h1>
-            <p>To be a part of your highly progressive company and work
-                with fullest of my knowledge, dedication and determination.
-                I love to learn new technologies and work with it and I wish
-                to do the same as a valuable employee of the company.
+            <h1>Blogs</h1>
+            <p>I am working on some technical and non-technical blogs. I like to document my journey of learning.
             </p>
+            <a class="link secondary" href="https://google.com">View Blogs</a>
         </div>
 
     </section>
 
-    <hr>
-
-    <h2>@Footer</h2>
     <footer class="footer container">
-        <div class="footer-header">This is the footer section</div>
+        <div class="footer-header"><h1>Contact me at</h1></div>
         <div>
             <ul class="social-links non-bullet">
-                <li class="list-inline-item"><a class="link" href="/">social1</a></li>
-                <li class="list-inline-item"><a class="link" href="/">social2</a></li>
-                <li class="list-inline-item"><a class="link" href="/">social3</a></li>
+                <li class="list-inline-item"><a class="link footer-link" href="https://github.com/akashsundar9122000">Github</a></li>
+                <li class="list-inline-item"><a class="link footer-link" href="https://www.linkedin.com/in/akash-sundar-289b5419a/">Linkedin</a></li>
+                <li class="list-inline-item"><a class="link footer-link" href="https://twitter.com/akash_akash2000">Twitter</a></li>
             </ul>
         </div>
 
     </footer>
 
 </body>
-
 </html>

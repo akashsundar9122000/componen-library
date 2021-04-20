@@ -52,6 +52,13 @@ hr{
     border: 1px solid var(--primary-color);
 }
 
+.footer-link{
+
+    border-radius: 00.5rem;
+
+    background-color: var(--grey-color);
+}
+
 /**bullet **/
 
 .non-bullet{
@@ -140,6 +147,13 @@ hr{
     text-align: center;
     color: black;
     border-bottom-right-radius: 1rem;
+}
+
+.footer .footer-header{
+
+    font-weight: bold;
+
+    font-size: large;
 }
 
 .footer .link{
