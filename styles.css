@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,300&family=Raleway:ital,wght@1,100;1,400&display=swap');
 
+*{
+    margin: 0px;
+    padding : 0px;
+}
 :root{
 
     --primary-color : rgb(99, 204, 236);
